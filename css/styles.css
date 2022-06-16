@@ -12,13 +12,13 @@
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 /* logo */
 .logo {
   color: var(--part-of-logo);
+  text-decoration: none;
 
   font-family: Raleway, sans-serif;
     font-size: 26px;
@@ -117,6 +117,15 @@ color: var(--info-color-footer);
   font-size: 14px;
   line-height: 1.7;
 }
+.contact-footer .info-footer:hover,
+.contact-footer .info-footer:focus {
+  color: var(--accent-color);
+}
+
+.contact-footer .map:hover,
+.contact-footer .map:focus {
+  color: var(--accent-color);
+}
 
 /* Button */
 button {
@@ -154,7 +163,6 @@ button {
   font-size: 16px;
   line-height: 1.8;
   }
-
 
 /* основной color: #212121; */
 /*вторичный цвет  color: #757575 */
