@@ -46,11 +46,18 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color:var(--accent-color) ;
+  color:var(--accent-color);
 }
+
 .link {
  text-decoration: none;
  color: var(--primary-text-color);
+}
+.studio {
+  color: var(--accent-color);
+}
+.portfolio {
+  color: var(--accent-color);
 }
 /* contact */
 .contact {
